@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTeX com KaTeX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" 
+            onload="renderMathInElement(document.body);"></script>
+</head>
+<body>
+    <p>Aqui está uma equação inline: <span class="equacao">\(E = mc^2\)</span></p>
+    <p>Aqui está uma equação em bloco:</p>
+    <p class="equacao">\[ \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2} \]</p>
+
+    <p>Aqui está um exemplo de limite:</p>
+    <p>\[ \lim_{{x \to 0}} \frac{\sin x}{x} = 1 \]</p>
+
+    <p>Aqui está um exemplo de derivada:</p>
+    <p>\[ \frac{d}{dx} \left( x^2 \right) = 2x \]</p>
+</body>
+</html>
